@@ -3,7 +3,7 @@ function chamar_api(){
   .then(response => response.json())
   .then(data => exibir_imagem(data))}
 
-function exibir(data){
-	document.getElementById("img").src = data.message;
+ function imagem(data){
+        console.log(data)
 }
 
