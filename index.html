@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Times</title>
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body class=" text-light bg-dark">
+    <nav class="navbar bg-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#">
+            <h3>Liga Europeia</h3>
+          </a>
+        </div>
+      </nav>
+    <div class="container">
+        <div class="row text-center">
+            <h3>Seleção de times</h3>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="">Digite um número de 0 a 19</label>
+                <input type="number" id="numero" max="19" min="0" value="0">
+            </div>
+        </div>
+        <div class="row">
+            <button type="button" onclick="chamar_api()">Mostrar</button>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input type="text" id="img">
+            </div>
+        </div>
+        <div class="row">
+            <img src="" id="tst" alt="">
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
